@@ -1,8 +1,7 @@
 # face_authorization
 
 
-Моей задачей была автоматизированная система безопасности, идентифицирующая людей по лицам. Она может быть полезна во многом, начиная с использования для личных целей, заканчивая использованием на производстве или в пределах компании. Я создавал ее для личных целей, ведь мне стало интересно ее устройство, сейчас я использую ее для доступа к своему компьютеру через вебкамеру. Я обучил модель на основе входных данных предоставленных в формате изображений в виде разных проекций и фотографий одного человека с разных ракурсов.
-Так же планируется исследовать насколько нейросетевой метод будет лучше метода сравнения p-хэшей этих картинок. А так же исследована возможность соединения этих двух методов: встраивание в нейросеть, превращение пространства признаков с помощью хэш функций в вектор и сравнение напрямую уже этих векторов
+My task was to create an automated security system that identifies people by their faces. It can be useful in various fields, from personal use to industrial or corporate use. I developed it for personal use because I became interested in its construction and functioning principle. Currently, I use it to access my computer through the webcam. I trained the model based on input data provided in the form of images with different projections and photographs of the same person from various angles. It is also planned to investigate how the neural network method performs compared to the p-hash comparison method of these images. Additionally, the possibility of combining these two methods has been explored: embedding the neural network, transforming the feature space using hash functions into a vector, and directly comparing these vectors.
 
 
 #TODO: translate to english
